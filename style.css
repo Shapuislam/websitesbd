@@ -1930,7 +1930,7 @@ p.servicecontent{
 
 
 /* ==========================================================================
-   social Section end
+   social Section Start
 ========================================================================== */
 .social {
   position: fixed;
@@ -2909,6 +2909,15 @@ button.btn.btn-outline-primary.info:hover {
     padding: 20px 0 0 0;
     float: none;
 } 
+.softwaretextcontent h1 {
+    padding-top: 0px;
+}
+.mainprice {
+    margin-bottom: 20px;
+}
+.softwaretextcontent {
+    display: inline-block;
+}
 .skilltext p {
     padding-bottom: 0px;
 }
@@ -2980,6 +2989,9 @@ button.btn.btn-outline-primary.info:hover {
 .softwarnotecontent h1 {
     padding: 100px 60px 66px 59px;
 }
+.Servicetextcontent {
+    padding: 0 30px 0 30px;
+}
 .serviceimg {
     width: 100px;
 }
@@ -3012,7 +3024,9 @@ p.servicecontent {
     padding: 10px 2px;
     font-size: 10px;
 }
-
+.social { 
+    display: none;
+}
 .sofbtn .btn {
     padding: 2px 5px 1px 3px;
 }
