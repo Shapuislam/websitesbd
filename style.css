@@ -2841,6 +2841,9 @@ button.btn.btn-outline-primary.info:hover {
 
 
 @media screen and (max-width: 767px) {
+.navbar-toggle {
+    padding-top: 35px;
+}
 .logo img {
     padding: 0px 0 0 0;
     width: 250px;
@@ -2933,7 +2936,13 @@ button.btn.btn-outline-primary.info:hover {
 
 
 @media screen and (max-width: 480px) {
-
+.headertop {
+    float: none;
+    padding: 10px 0 10px 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 0px;
+}
 .headertop .box span {
     display: inline-block;
 }
@@ -2990,6 +2999,9 @@ button.btn.btn-outline-primary.info:hover {
     padding: 100px 60px 66px 59px;
 }
 .Servicetextcontent {
+    padding: 0 30px 0 30px;
+}
+.mainbodytextcontent {
     padding: 0 30px 0 30px;
 }
 .serviceimg {
@@ -3063,6 +3075,12 @@ p.servicecontent {
 }
 .serviceimg {
     margin: 34px 10px 33px 9px;
+}
+.testimonialtext h1 {
+    padding: 0 50px;
+}
+.testimonialtext strong:before {
+    bottom: 1px;
 }
 .footercategory {
     border-right: none;
